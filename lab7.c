@@ -1,3 +1,5 @@
+// This code has not been tested and is incomplete.
+
 #include <msp430.h>
 
 volatile float voltage1, voltage2;
