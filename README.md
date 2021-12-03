@@ -6,3 +6,5 @@ This is the C code for the lab. The adc array records the values from a photores
 This is the code for the C# GUI. It sends the data from the two sensors to the desired ThingSpeak channel. The parts that are in brackets, such as `[channel id]` in line 66 should be replaced with the specific user's ThingSpeak values. The GUI should be layed out as below.
 
 ![GUI](https://i.gyazo.com/471488ebb19b856ed61bb2a92c925e0c.png)
+
+'Serial start' corresponds to ``button1_Click``, which is what allows the GUI to send the data to ThingSpeak. 'Serial stop' corresponds to ``button1_Click`` and stops the GUI from sending data. The data that is received shows up in the textbox.
